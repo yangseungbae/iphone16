@@ -1,0 +1,203 @@
+body {
+    background-image: url(../image/background03.jpg);
+    background-attachment : fixed;
+}
+
+/* nav */
+nav{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.2);
+}
+nav a{
+color: white;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+.navbar>.menu{
+    right: 0;
+}
+.navbar>.menu>ul {
+    display: flex;
+}
+.navbar>.logo>a{
+    font-size: 55px;
+    font-weight: bold;
+}
+.navbar .sign{
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+.navbar .sign>li {
+    margin: 0 0 16px 10px;
+    font-size: 13px;
+}
+.navbar .sign>li>a:hover{
+    color: rgba(255, 255, 255, 0.2);
+    transition: 0.3s;
+}
+.navbar .mainmenu{
+    position: absolute;
+    width: 55%;
+    justify-content: space-between;
+    font-size: 18px;
+    left: 26%;
+    /* transform: translateX(-50%); */
+}
+.navbar .mainmenu a{
+    padding: 5px;
+}
+.navbar .mainmenu a:hover{
+    color: rgba(255, 255, 255, 0.2);
+    transition: 0.3s;
+}
+
+/* mainbanner */
+.mainbanner {
+    position: relative;
+    width: 100%;
+}
+
+.mainbanner>.banner img {
+    width: 100%;
+}
+
+.banner {
+    width: 300%;
+    position: relative;
+    display: flex;
+    transition: 0.5s;
+    font-family: 'Chosunilbo_myungjo';
+}
+.banner>li{
+    flex: 1;
+}
+.mainbanner>.arrow{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.mainbanner i{
+    color: rgba(255,255,255,0.7);
+    font-size: 35px;
+    padding: 5px 13px;
+    border-radius: 25px;
+    border: 1px solid rgba(255,255,255,0.7);
+}
+.mainbanner i:hover {
+    color: rgba(0,0,0,0.7);
+    border: 1px solid rgba(0,0,0,0.7);
+}
+
+/* 페이지 */
+.pager{
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    column-gap: 10px; 
+    /* column-gap 좌우, row-gap 상하 */
+    
+}
+.pager>li>a{
+    display: block;
+    margin: 10px 0;
+    width: 15px;
+    height: 15px;
+    background: #ccc;
+    border-radius: 100%;
+    text-align: center;
+}
+.pager>.active>a{
+    background: #666;
+    width: 17px;
+    height: 17px;
+    transition: 0.5s;
+}
+/* subbanner */
+.subbanner {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: auto;
+    /* background-color: red; */
+}
+.subwrap {
+    position: relative;   
+    margin-top: 30px;
+    overflow: hidden;
+}
+.subwrap img{
+    width: 100%;
+    height: 100%;
+}
+.subwrap div{
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+}
+.subwrap ul{
+    position: absolute;
+    width: 100%;
+    bottom: -131px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.subwrap:hover ul{
+    transition: 0.3s;
+    bottom: 0;
+}
+.subwrap:hover img{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.subwrap li{
+    padding: 2px;
+    color: white;
+
+}
+/* content */
+section {
+    background-color: white;
+    width: 100%;
+
+}
+.content {
+    width: 70%;
+    margin: 30px auto;
+    padding: 70px 0;
+}
+.content img {
+    width: 100%;
+    height: 100%;
+}
+.content>div{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 0;
+}
+.content ul{
+    padding: 130px 0;
+}
+.content ul a{
+    font-size: 25px;
+}
+.title>a{
+    font-size: 30px;
+    font-weight: bold;
+}
