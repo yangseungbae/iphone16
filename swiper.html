@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+<!-- <script src="js/swiper.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <div class="swiperback">
+        <h2>카메라 컨트롤 사용방법</h2>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+        <ul class="swiper-slide">
+            <li><img src="image/camera_control01.jpg" alt=""></li>
+            <li>버튼을 눌러 ‘카메라’ 앱을 연 후, 또 한 번 누르면 바로 사진을 촬영할 수 있습니다.</li>
+        </ul>
+        <ul class="swiper-slide">
+            <li><img src="image/camera_control02.jpg" alt=""></li>
+            <li>길게 꾹 누르면 동영상 촬영이 시작됩니다.</li>
+        </ul>
+        <ul class="swiper-slide">
+            <li><img src="image/camera_control03.jpg" alt=""></li>
+            <li>살짝 누르면 확대/축소 제어 항목이 열립니다.</li>
+        </ul>
+        <ul class="swiper-slide">
+            <li><img src="image/camera_control04.jpg" alt=""></li>
+            <li>살짝 두 번 누르면 카메라 설정의 다른 항목을 선택하고</li>
+            <li>손가락을 움직여 세부 값을 조절할 수 있습니다.</li>
+        </ul>
+    </div>
+    </div>
+</div>
+    
+    <!-- Swiper JS -->
+
+    
+    <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1.5,
+          freeMode: true,
+        });
+      </script>
+</body>
+</html>

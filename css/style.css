@@ -42,6 +42,26 @@ nav a {
     font-size: 55px;
     font-weight: bold;
 }
+i{
+    color: whitesmoke;
+}
+.sign{
+    align-items: center;
+}
+.sign i{
+    font-size: 25px;
+}
+.sign>li:nth-child(2){
+    padding-right: 15px;
+}
+.sign>li:hover:nth-child(3) i{color:#D09E88;transition: 0.2s;}
+.sign>li:hover:nth-child(4) i{color:#53bbf4;transition: 0.2s;}
+.sign>li:hover:last-child i{color:#ec0101;transition: 0.2s;}
+
+.logo i:hover{
+    transition: 0.2s;
+    scale: 1.1;
+}
 
 .navbar .sign {
     position: absolute;
@@ -69,6 +89,7 @@ nav a {
 }
 
 .navbar .mainmenu a {
+    font-weight: bold;
     padding: 5px;
 }
 
@@ -80,7 +101,8 @@ nav a {
 /* mainbanner */
 .slide {
     position: relative;
-    margin: 0 auto;
+    margin: auto;
+    padding-top: 80px;
     width: 100%;
     height: 100%;
     /* text-align:center; */
@@ -89,7 +111,7 @@ nav a {
 
 .slide .slideCnt {
     width: 100%;
-    height: 34vw;
+    height: 33vw;
 }
 
 .slide .slideCnt li {
@@ -136,7 +158,7 @@ nav a {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 2%;
+    bottom: 5%;
 }
 
 .slide .indicator a {
@@ -155,14 +177,14 @@ nav a {
 
 .slide .autoBtn {
     position: absolute;
-    bottom: 3.5%;
+    bottom: 5%;
     right: 1%;
     border-radius: 5px;
     padding: 5px 15px;
     text-align: center;
     line-height: 30px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #555;
+    color: #555;
 }
 
 .slide .autoBtn:hover {
@@ -170,60 +192,71 @@ nav a {
     transition: 0.5s;
 }
 
-/* subbanner */
-.subbanner {
-    display: flex;
-    justify-content: space-evenly;
-    width: 60%;
+/* camera */
+.camera {
+    background-color: #f4f4f4;
+    width: 100%;
+    padding: 100px 0;
+}
+.camera>.camerawrap>h2{
+    font-size: 45px;
+    color: ;
+}
+.camera>.camerawrap>h3{
+    font-size: 35px;
+    color: ;
+}
+.camera>.camerawrap{
     margin: auto;
+    /* background-color: #4F86EC; */
+    width: 71%;
 }
-
-.subwrap {
+.camera .cameraimg{
     position: relative;
-    margin-top: 60px;
-    border-radius: 30px 30px 0 0;
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.9);
-    overflow: hidden;
-}
-
-.subwrap img {
     width: 100%;
-    /* height: 100%; */
 }
-
-.subwrap div {
+.camera .cameraimg>img{
+    border-radius: 30px;
     width: 100%;
-    overflow: hidden;
-    align-items: center;
+    margin: 80px 0 60px 0;
 }
-
-.subwrap ul {
+.camera .abtext{
     position: absolute;
-    width: 100%;
-    bottom: -131px;
-    padding: 0 0 10px 10px;
-    background-color: rgba(0, 0, 0, 0.7);
+    top: 15%;
+    left: 3.5%;
 }
-
-.subwrap:hover ul {
-    transition: 0.3s;
-    bottom: 0;
-}
-
-.subwrap:hover img {
-    transform: scale(1.1);
-    transition: 0.4s;
-}
-
-.subwrap li {
-    padding: 2px;
-    color: white;
-}
-
-.title {
-    font-size: 20px;
+.camera .abtext>li{
+    font-size: 22px;
     font-weight: bold;
+    line-height: 35px;
 }
+.swiper{
+    /* background-color: aqua; */
+    width: 900px;
+    height: 700px;
+    margin: auto;
+    overflow: hidden;
+    }
+.swiper>h2{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.swiper-slide{
+    /* background-color: greenyellow; */
+    /* text-align: center; */
+    text-align: center;
+    font-size: 13px;
+}
+.swiper li{
+    width: 90%;
+}
+.swiper img{
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
 
 /* youtube */
 .youtube {
@@ -346,7 +379,7 @@ nav a {
     margin: auto;
 }
 
-h2 {
+.lineup>h2 {
     text-align: center;
     padding: 60px 0 30px 0;
     font-size: 25px;
@@ -449,7 +482,9 @@ h2 {
     border: 1px solid black;
 }
 .buy>.more>a:hover {
-    background-color: #19405e;
+    /* background-color: #19405e; */
+    background-color:rgba(0, 113, 227, 1);
+    border: none;
     color: white;
     transition: 0.15s;
 }

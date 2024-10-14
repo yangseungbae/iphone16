@@ -1,0 +1,28 @@
+.swiper{
+    /* background-color: aqua; */
+    width: 900px;
+    height: 700px;
+    margin: auto;
+    overflow: hidden;
+    }
+.swiperback{
+    background-color: rgb(238, 238, 238);
+}
+.swiperback>h2{
+    text-align: center;
+    padding: 50px 0;
+}
+.swiper-slide{
+    /* background-color: greenyellow; */
+    /* text-align: center; */
+    text-align: center;
+    font-size: 13px;
+}
+.swiper li{
+    width: 90%;
+}
+.swiper img{
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}

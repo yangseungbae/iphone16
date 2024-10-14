@@ -10,28 +10,31 @@
     <!-- <link rel="stylesheet" href="css/test.css"> -->
     <script src="https://kit.fontawesome.com/40f8d62662.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="./js/test.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
 </head>
 
 <body>
     <header>
         <nav>
             <div class="navbar">
-                <div class="logo"><a href="">LOGO</a></div>
+                <div class="logo"><a href=""><i class="fa-brands fa-apple"></i></a></div>
                 <div class="menu">
                     <ul class="sign">
                         <li><a href="#">로그인</a></li>
                         <li><a href="#">회원가입</a></li>
-                        <li class="snslogo"><a href="#">logo<img src="" alt=""></a></li>
-                        <li class="snslogo"><a href="#">logo<img src="" alt=""></a></li>
-                        <li class="snslogo"><a href="#">logo<img src="" alt=""></a></li>
+                        <li class="snslogo"><a href="https://www.instagram.com/apple/"><i
+                                    class="fa-brands fa-instagram"></i></a></li>
+                        <li class="snslogo"><a href="https://x.com/apple"><i class="fa-brands fa-twitter"></i></li>
+                        <li class="snslogo"><a href="https://www.youtube.com/@AppleKorea"><i
+                                    class="fa-brands fa-youtube"></i></a></li>
                     </ul>
                     <ul class="mainmenu">
-                        <li><a href="#">menu1</a></li>
-                        <li><a href="#">menu2</a></li>
-                        <li><a href="#">menu3</a></li>
-                        <li><a href="#">menu4</a></li>
-                        <li><a href="#">menu5</a></li>
+                        <li><a href="#">PROMAX</a></li>
+                        <li><a href="#">PRO</a></li>
+                        <li><a href="#">NOMAL</a></li>
+                        <li><a href="#">REVIEW</a></li>
                     </ul>
                 </div>
             </div>
@@ -40,9 +43,10 @@
             <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script> -->
             <div class="slide">
                 <ul class="slideCnt">
-                    <li><img src="image/iphone_mainbanner01.jpg" alt=""></li>
-                    <li><img src="image/iphone_mainbanner01.jpg" alt=""></li>
-                    <li><img src="image/iphone_mainbanner01.jpg" alt=""></li>
+                    <li><a href="#"><img src="image/iphone_mainbanner01.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="image/iphone_mainbanner02.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="image/iphone_mainbanner03.jpg" alt=""></a></li>
+
                 </ul>
                 <ul class="btn">
                     <li><a href="#" class="prev"><i class="fa-solid fa-chevron-left"></i></a></li>
@@ -56,40 +60,58 @@
                 <a href="#" class="autoBtn"></a>
             </div>
         </div>
-        <div class="subbanner">
-            <div class="subwrap">
-                <a href="#">
-                    <div><img src="./image/subbanner01.jpg" alt=""></div>
-                    <ul>
-                        <li class="title">프로 카메라 시스템</li>
-                        <br>
-                        <li>48MP Fusion 48MP 울트라 와이드 망원</li>
-                        <li>최대 4K 초당 120 프레임의 Dolby Vision</li>
-                        <li>초고해상도 사진(24MP 및 48MP)</li>
-                    </ul>
-                </a>
-            </div>
-            <div class="subwrap">
-                <a href="#">
-                    <div><img src="./image/subbanner02.jpg" alt=""></div>
-                    <ul>
-                        <li class="title">'Ctype'으로 세계를 하나로</li>
-                        <br>
-                        <li>더 빠르고 안정적인 충전</li>
-                        <li>과열이나 단락과 같은 위험 최소화</li>
-                        <li>다양한 액세서리를 통해 편리한 충전</li>
-                    </ul>
-                </a>
-            </div>
-        </div>
     </header>
+    <div class="camera">
+        <div class="camerawrap">
+            <h2>카메라 컨트롤, 한 손이면 충분하다.</h2>
+            <h3>단 3번의 터치로 실행, 줌, 촬영</h3>
+            <div class="cameraimg"><img src="image/iphone_camera01.jpg" alt="">
+                <ul class="abtext">
+                    <li>흔들림, 빛번짐, 역광 그것은 아무것도 아니다.</li>
+                    <li>사실보다 더 사실 같은 화질</li>
+                </ul>
+            </div>
+            <div class="swiper mySwiper">
+                <h2>카메라 컨트롤 사용방법</h2>
+                <div class="swiper-wrapper">
+                    <ul class="swiper-slide">
+                        <li><img src="image/camera_control01.jpg" alt=""></li>
+                        <li>버튼을 눌러 ‘카메라’ 앱을 연 후, 또 한 번 누르면 바로 사진을 촬영할 수 있습니다.</li>
+                    </ul>
+                    <ul class="swiper-slide">
+                        <li><img src="image/camera_control02.jpg" alt=""></li>
+                        <li>길게 꾹 누르면 동영상 촬영이 시작됩니다.</li>
+                    </ul>
+                    <ul class="swiper-slide">
+                        <li><img src="image/camera_control03.jpg" alt=""></li>
+                        <li>살짝 누르면 확대/축소 제어 항목이 열립니다.</li>
+                    </ul>
+                    <ul class="swiper-slide">
+                        <li><img src="image/camera_control04.jpg" alt=""></li>
+                        <li>살짝 두 번 누르면 카메라 설정의 다른 항목을 선택하고</li>
+                        <li>손가락을 움직여 세부 값을 조절할 수 있습니다.</li>
+                    </ul>
+                </div>
+            </div>
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    slidesPerView: 1.5,
+                    freeMode: true,
+                });
+            </script>
+        </div>
+    </div>
     <div class="youtube">
-    <iframe src="https://www.youtube.com/embed/zSmz3ObJ9vA?si=YlthEN7YjmfiBlen" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/6pxpK9q1C24?si=-Qq52B20otzPcuLO&amp;controls=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     <section class="message">
         <div>"사각형의 혁신 안에 당의 삶을 담다."</div>
     </section>
-    
+
     <section class="items">
         <div>
             <div class="lineup">
@@ -130,8 +152,8 @@
                     <button class="dot1"></button>
                 </div>
                 <div class="buy">
-                <div>₩1,550,000부터</div>
-                <div class="more"><a href="#">더 알아보기</a></div>
+                    <div>₩1,550,000부터</div>
+                    <div class="more"><a href="#">더 알아보기</a></div>
                 </div>
             </div>
             <div class="lineup">
