@@ -1,5 +1,4 @@
 .swiper{
-    /* background-color: aqua; */
     width: 900px;
     height: 700px;
     margin: auto;
@@ -13,8 +12,6 @@
     padding: 50px 0;
 }
 .swiper-slide{
-    /* background-color: greenyellow; */
-    /* text-align: center; */
     text-align: center;
     font-size: 13px;
 }

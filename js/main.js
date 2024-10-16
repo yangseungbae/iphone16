@@ -268,4 +268,14 @@ const swiper = new Swiper('.cameraslide', {
       el: '.swiper-scrollbar',
     },
   });
+
+
+
+//hambtn
+const hbg = document.querySelector('.hambtn');
+const menu = document.querySelector('.menu');
+
+hbg.addEventListener('click', () => {
+    menu.classList.toggle('active');
+});
 }
