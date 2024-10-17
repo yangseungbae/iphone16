@@ -628,11 +628,14 @@ footer{
     }
     .slide>.btn {
         width: 60%;
-        top: 81%;
+        top: 80%;
     }
     .slide .btn i {
         padding: 4px 8px;
         font-size: 18px;
+    }
+    .slide .autoBtn{
+        bottom: 2px;
     }
 
 
@@ -640,13 +643,13 @@ footer{
         padding: 70px 0;
     }
     .camera>.camerawrap>h2{
-        font-size: 25px;
-    }
-    .camera>.camerawrap>h3{
         font-size: 20px;
     }
+    .camera>.camerawrap>h3{
+        font-size: 18px;
+    }
     .camera .abtext>li{
-        font-size: 14px;
+        font-size: 16px;
         line-height: 20px;
     }
     .camera .abtext {
@@ -660,11 +663,12 @@ footer{
 
     .swiper{
         
-        width: 440px;
-        height: 500px;
+        width: 110%;
+        height: 450px;
     }
     .swiper>h2{
-    font-size: 25px;
+        text-align: left;
+    font-size: 20px;
     }
     .camerawrap>.swipericon{
         margin-top: 0;
@@ -685,7 +689,7 @@ footer{
 
 
     .items>div{
-        width: 70%;
+        width: 100%;
     }
 
     footer{
