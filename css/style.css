@@ -1,6 +1,7 @@
 body {
     background-image: url(../image/background.jpg);
     background-attachment: fixed;
+    background-size: 100%;
 }
 
 header {
@@ -627,15 +628,14 @@ footer{
         height: 43vw;
     }
     .slide>.btn {
-        width: 60%;
-        top: 80%;
-    }
-    .slide .btn i {
-        padding: 4px 8px;
-        font-size: 18px;
+        display: none;
     }
     .slide .autoBtn{
         bottom: 2px;
+    }
+    .slide .indicator a {
+        padding: 0 20px;
+        margin: 0 5px;
     }
 
 
@@ -643,17 +643,22 @@ footer{
         padding: 70px 0;
     }
     .camera>.camerawrap>h2{
-        font-size: 20px;
+        font-size: 16px;
+        font-weight: 500;
     }
     .camera>.camerawrap>h3{
-        font-size: 18px;
+        font-size: 14px;
+        font-weight: 500;
     }
     .camera .abtext>li{
-        font-size: 16px;
-        line-height: 20px;
+        /* color: white; */
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 500;
     }
     .camera .abtext {
-        top: 10%;
+        top: 13%;
+        left: 0;
     }
     .camera .cameraimg>img{
         width: 120%;
@@ -662,16 +667,19 @@ footer{
     }
 
     .swiper{
-        
         width: 110%;
         height: 450px;
     }
     .swiper>h2{
         text-align: left;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 500;
     }
     .camerawrap>.swipericon{
         margin-top: 0;
+    }
+    .swiper-slide>li{
+        font-size: 10px;
     }
 
 
