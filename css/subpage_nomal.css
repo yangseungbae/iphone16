@@ -117,13 +117,15 @@ i{
     box-shadow: 0 0 0 1.6px rgb(142, 144, 255);
 }
 
-.maxcolor:first-child>input{background-color: #DBC082;}
-.maxcolor:nth-child(2)>input{background-color: #C6C6C6;}
-.maxcolor:nth-child(3)>input{background-color: #EAEAEA;}
+.maxcolor:first-child>input{background-color: #4F86EC;}
+.maxcolor:nth-child(2)>input{background-color: #B2F7EF;}
+.maxcolor:nth-child(3)>input{background-color: #ff85cb;}
+.maxcolor:nth-child(4)>input{background-color: #EAEAEA;}
 .maxcolor:last-child>input{background-color: #3D3D3D;}
-.colorbtn>li:first-child{background-color: #DBC082;}
-.colorbtn>li:nth-child(2){background-color: #C6C6C6;}
-.colorbtn>li:nth-child(3){background-color: #EAEAEA;}
+.colorbtn>li:first-child{background-color: #4F86EC;}
+.colorbtn>li:nth-child(2){background-color: #B2F7EF;}
+.colorbtn>li:nth-child(3){background-color: #ff85cb;}
+.colorbtn>li:nth-child(4){background-color: #EAEAEA;}
 .colorbtn>li:last-child{background-color: #3D3D3D;}
 
 
@@ -330,7 +332,7 @@ i{
 /* detail *//* detail *//* detail *//* detail */
 
 .detail{
-    background-color: #000000;
+    background-color: white;
     width: 100%;
     padding: 70px 0;
 }
@@ -339,7 +341,7 @@ h3{
     text-align: left;
     margin: 30px auto;
     /* padding-bottom: 20px; */
-    color: white;
+    /* color: white; */
     font-size: 20px;
 }
 .detail>div{
@@ -363,10 +365,10 @@ h3{
     padding-bottom: 20px;
 }
 .detail li{
-    color: white;
+    /* color: white; */
 }
 .detail>.water{
-    color: white;
+    /* color: white; */
 }
 .detail>.chip{
     display: flex;
