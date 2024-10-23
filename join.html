@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/join.css">
+    <script src="https://kit.fontawesome.com/40f8d62662.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/sub_items.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo"><a href="index.html"><i class="fa-brands fa-apple"></i></a></div>
+            <div class="menu">
+                <ul class="sign">
+                    <li><a href="login.html">로그인</a></li>
+                    <li><a href="#">회원가입</a></li>
+                </ul>
+                <ul class="snsicon">
+                    <li class="snslogo"><a href="https://www.instagram.com/apple/"><i
+                                class="fa-brands fa-instagram"></i></a></li>
+                    <li class="snslogo"><a href="https://x.com/apple"><i class="fa-brands fa-twitter"></i></li>
+                    <li class="snslogo"><a href="https://www.youtube.com/@AppleKorea"><i
+                                class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+                <ul class="mainmenu">
+                    <li><a href="subpage_promax.html">PROMAX</a></li>
+                    <li><a href="subpage_pro.html">PRO</a></li>
+                    <li><a href="subpage_nomal.html">NOMAL</a></li>
+                    <li><a href="ios18.html">IOS 18.0</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="hambtn"><a href="#"><i class="fa-solid fa-bars"></i></a></div>
+    </nav>
+    <div class="joinwrap">
+        <h2>회원가입</h2>
+        <form action="">
+            <input type="text" placeholder="ID">
+        </form>
+        <form action="">
+            <input type="password" id="pass1" placeholder="Password">
+        </form>
+        <form action="">
+            <input type="password" id="pass2" placeholder="Password Check">
+        </form>
+        <form action="">
+            <input type="text" placeholder="iphone16@gmail.com">
+        </form>
+        <form action="">
+            <input type="text" placeholder="Name">
+        </form>
+        <form action="">
+            <input type="date">
+        </form>
+        <form action="">
+            <input type="text" size="2" maxlength="3">&nbsp; - &nbsp;<input type="text" size="4" maxlength="4">&nbsp; - &nbsp;<input type="text" size="4" maxlength="4">
+        </form>
+        <form action="" id="joinload">가입경로 &nbsp;
+            <select name="가입경로" value id="">
+                <option> 
+                <option> 검색
+                <option> 광고
+                <option> 지인 추천
+                <option> 기타
+            </select>
+        </form>
+        <form action="" id="marketing">마케팅 수신동의<br>
+            <input type="checkbox"> SMS
+            <input type="checkbox"> Email
+            <input type="checkbox"> 전화
+            <input type="checkbox"> 동의안함
+        </form>
+        <input type="button" value="회원가입">
+    </div>
+    <script>
+        $().ready(function () {
+            $(".joinwrap>input").click(function () {
+                Swal.fire({
+                    icon: 'success',                         // Alert 타입
+                    title: '회원가입이 완료 되었습니다.',         // Alert 제목
+                    text: '혁신을 추구하는 Apple의 iPhone16을 만나보세요!',
+                    // Alert 내용
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
