@@ -669,7 +669,9 @@ footer{
         width: 100%;
         height: 350px;
     }
-
+    .camera>li>iframe{
+        width: 100%;
+    }
 
     .detail>div{
         width: 98%;
