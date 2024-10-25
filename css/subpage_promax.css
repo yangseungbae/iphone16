@@ -173,7 +173,6 @@ i{
     border-radius: 50%;
 }
 .active {
-    box-shadow: 0 0 2px 3px rgb(142, 144, 255);
     transition: 0.2s;
 }
 
@@ -673,9 +672,6 @@ footer{
         width: 100%;
     }
 
-    .detail>div{
-        width: 98%;
-    }
     .detail>.color_size{
         display: block;
     }

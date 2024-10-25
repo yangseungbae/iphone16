@@ -551,18 +551,26 @@ footer{
         font-size: 20px;
     }
     .iosmain i {
-        font-size: 14px;
-        padding-top: 5px;
+        display: none;
     }
     .compare {
-        width: 98%;
+        width: 100%;
         padding: 20px 0;
     }
     .compare .model {
         font-size: 14px;
     }
     .compare .specs>li:nth-child(2) {
-        font-size: 16px;
+        font-size: 12px;
+    }
+    .compare>ul>li:nth-child(2){
+        /* display: none; */
+        transform: translateX(0);
+        transition: 0.3s;
+    }
+    .compare>ul>li:last-child{
+        transform: translateX(0);
+        transition: 0.3s;
     }
 
     .content>img {
