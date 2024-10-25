@@ -1,9 +1,12 @@
-body {
+/* body {
     background-image: url(../image/background.jpg);
     background-attachment: fixed;
     background-size: 100%;
+} */
+body>img{
+    position: fixed;
+    z-index: -1;
 }
-
 header {
     background-color: black;
 }
