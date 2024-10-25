@@ -603,18 +603,24 @@ footer{
         font-size: 14px;
     }
 
+    .battery{
+        padding: 50px 0 0;
+    }
     .battery>ul>li {
-        font-size: 25px;
-        line-height: 35px;
+        font-size: 20px;
+        line-height: 27px;
     }
     .battery>ul {
-        margin-bottom: 50px;
+        margin-bottom: 25px;
     }
     .battery>div {
         display: block;
     }
     .battery>div>ul {
         width: 100%;
+    }
+    .battery>div>ul>li{
+        font-size: 14px;
     }
     .battery>div>div{
         display: flex;
